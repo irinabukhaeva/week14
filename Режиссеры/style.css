@@ -1,0 +1,50 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background: no-repeat url(background.jpg);
+  background-size: cover;
+  color: antiquewhite;
+}
+h1 {
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+h3 {
+  font-size: 20px;
+}
+a {
+  color: antiquewhite;
+  align-self: center;
+  text-decoration: none;
+}
+main {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  max-width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+
+.point {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid antiquewhite;
+}
