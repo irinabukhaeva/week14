@@ -64,12 +64,10 @@ directors.forEach((point) => {
   points.append(element);
 });
 
-const arrBestFilms = [];
+const topFilmsList = [];
 
 directors.forEach((point) => {
-  arrBestFilms.push(`"${point.top_rated_film}"`);
+  topFilmsList.push(`"${point.top_rated_film}"`);
 });
 
-const filmsList = arrBestFilms.join(", ");
-
-bestFilms.innerText = filmsList;
+bestFilms.innerText = topFilmsList.join(", ");
